@@ -80,5 +80,17 @@
         </p>
     </div>
     
+
+    <div class= "learned" id= "learn">
+        <h2>What I Learned</h2>
+        <p>I learned a lot from this exercise. <br> Firstly, I learned how to use git commands. 
+        Though I was familiar with the git workflow from my prior experience with github I didnt use git commands but rather I used github desktop.
+        Secondly, I learned about laragon.
+        Lastly, I learned the basics of php.
+        </p>
+
+        
+    </div>
+
 </body>
 </html>
