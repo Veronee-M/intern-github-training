@@ -8,6 +8,68 @@ body{
 
 
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0D3F7;
+    color: black;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color:#5B1865;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color:aqua;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.nav-wave-border {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #FEF8EE;
+}
+
+.nav-wave-border svg {
+    position: relative;
+    display: block;
+    width: calc(157% + 1.3px);
+    height: 117px;
+}
+
+.nav-wave-border .shape-fill {
+    fill:#F0D3F7;
+}
+
+
+
+
+.mycontainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+.mycontainer div {
+  width:25%;
+  text-align: center;
+}
 
 
 
@@ -18,7 +80,7 @@ body{
     margin: 0;
     height: 90%;
     padding: 30px;
-    background-color:#F3F9D2;
+    background-color:#FEF8EE;
 }
 
 .hero h1{
@@ -35,9 +97,9 @@ body{
 
 .intro{
     padding: 5%;
-    font-size: 20px;
+    font-size: 30px;
     height: 80%;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 
@@ -94,7 +156,26 @@ body{
     font-size: 25px;
 }
 
+/* I wanna add a border here*/
 
+.custom-shape-divider-top-1787928181 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1787928181 svg {
+    position: relative;
+    display: block;
+    width: calc(157% + 1.3px);
+    height: 117px;
+}
+
+.custom-shape-divider-top-1787928181 .shape-fill {
+    fill:#f7d3ec;
+}
 
 .learned{
     padding: 5%;
