@@ -95,3 +95,20 @@ body{
 }
 
 
+
+.learned{
+    padding: 5%;
+    background-color:white;
+    height: 80%;
+}
+
+.learned h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:#5B1865;
+}
+
+.learned p{
+    font-size: 25px;
+}
