@@ -4,6 +4,7 @@ body{
     /*      top right bottom left*/
     padding: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -20,22 +21,36 @@ body{
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 50px;
     margin: 0;
-    padding: 0;
+    padding: 0 8% 0 0;
+
 }
 
 .nav-links a {
     color:#5B1865;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .nav-links a:hover {
-    color:aqua;
+    color:#2D93AD;
+    transition: all 0.3s ease;
 }
 
 .logo{
     font-size: 40px;
+    background-color: #5B1865;
+    background-image: linear-gradient(to right, #5B1865 0%, #2D93AD 40%, #651839 100%);
+    background-size: 100%;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.logo{
+    text-decoration: none;
 }
 
 .nav-wave-border {
@@ -61,31 +76,20 @@ body{
 
 
 
-.mycontainer {
-  display: flex;
-  justify-content: space-between;
-  padding: 5%;
-}
-.mycontainer div {
-  width:25%;
-  text-align: center;
-}
-
-
-
-
-
 
 .hero {
     margin: 0;
-    height: 90%;
+    height: 80vh;
     padding: 30px;
     background-color:#FEF8EE;
+    align-content: center; 
+    
 }
 
 .hero h1{
     font-size: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
+    margin-top: 0;
     text-align: center;
 }
 
@@ -93,18 +97,38 @@ body{
     font-size: 30px;
     color: #5B1865;
     text-align: end;
+    padding-top: 10%;
 }
 
 .intro{
-    padding: 5%;
+    padding: 5% 15%;
     font-size: 30px;
     height: 80%;
     background-color: white;
 }
 
 
+.mycontainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+.mycontainer div {
+  width:30%;  
+  display:inline-block;
+  text-align: center;
+  border-radius: 10%;
+  align-content: center;
+  padding: 1%;
+}
+
+
+
+
+
 .github{
-    padding: 5%;
+    
+    padding: 5% 15%;
     background-color:#F0D3F7;
     height: 80%;
 }
@@ -117,12 +141,39 @@ body{
 }
 
 .github p{
+    margin: 0;
     font-size: 25px;
 }
 
+.github h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 60px 20px;
+    color: #5B1865;
+}
+
+.github h5{
+    margin: 0;
+    font-size:25px ;
+    color: #5B1865;
+    width: 50px;
+}
+
+.github li{
+    text-decoration:none;
+    display: flex;
+    gap: 20%;
+    padding: 5%;
+}
+
+
+
+
+
+
 
 .vscode{
-    padding: 5%;
+    padding: 5% 15%;
     background-color:aliceblue;
     height: 80%;
 }
@@ -135,12 +186,40 @@ body{
 }
 
 .vscode p{
+    margin: 0;
     font-size: 25px;
 }
 
+.vscode h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 60px 20px;
+    color: #2D93AD;
+}
+
+.vscode h5{
+    margin: 0;
+    font-size:25px ;
+    color: #2D93AD;
+    width: 50px;
+}
+
+.vscode li{
+    text-decoration:none;
+    display: flex;
+    gap: 20%;
+    padding: 5%;
+}
+
+
+
+
+
+
+
 
 .laragon{
-    padding: 5%;
+    padding: 5% 15%;
     background-color:#f7d3ec;
     height: 80%;
 }
@@ -153,10 +232,31 @@ body{
 }
 
 .laragon p{
+    margin: 0;
     font-size: 25px;
 }
 
-/* I wanna add a border here*/
+.laragon h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 60px 20px;
+    color: #651839;
+}
+
+.laragon h5{
+    margin: 0;
+    font-size:25px ;
+    color: #651839;
+    width: 50px;
+}
+
+.laragon li{
+    text-decoration:none;
+    display: flex;
+    gap: 20%;
+    padding: 5%;
+}
+
 
 .custom-shape-divider-top-1787928181 {
     top: 0;
@@ -178,7 +278,7 @@ body{
 }
 
 .learned{
-    padding: 5%;
+    padding: 5% 15%;
     background-color:white;
     height: 80%;
 }
@@ -192,4 +292,12 @@ body{
 
 .learned p{
     font-size: 25px;
+}
+
+
+.footer {
+    background-color: #F0D3F7;
+    text-align: center;
+    align-content: center;
+    padding: 1%;
 }
